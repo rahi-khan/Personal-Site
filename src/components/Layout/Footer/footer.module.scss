@@ -1,0 +1,18 @@
+@import "~rfs/scss";
+
+.footer {
+    margin: 0 auto;
+    padding: 2rem 0;
+
+    a {
+        color: #663399;
+        text-align: center;
+        text-decoration: none;
+        transition: all 0.17s ease-in;
+
+        &:hover {
+            color: #542b7e;
+            border-bottom: 1px solid #542b7e;
+        }
+    }
+}

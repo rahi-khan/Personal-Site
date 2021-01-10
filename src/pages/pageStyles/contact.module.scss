@@ -1,0 +1,39 @@
+@import "~rfs/scss";
+
+.contactHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        margin-bottom: 1rem;
+        @include font-size(3rem);
+    }
+
+    ul {
+        display: flex;
+        list-style-type: none;
+        overflow: hidden;
+
+        li {
+            a {
+                display: block;
+                color: #666;
+                text-align: center;
+                padding: 0.8rem 1.5rem;
+                text-decoration: none;
+                transition: all 0.13s ease-in;
+
+                * {
+                    @include font-size(2.1rem);
+                    transition: all 0.13s ease-in;
+
+                    &:hover {
+                        color: #663399;
+                    }
+                }
+            }
+        }
+    }
+}

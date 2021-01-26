@@ -1,6 +1,6 @@
 ---
 title: 'Connect With me as a true Web Developer'
-buttonText: 'npx anmol'
+buttonText: 'npx rahikhan'
 ---
 
 👇just hit this in your terminal with npm installed👇

@@ -1,36 +1,36 @@
 module.exports = {
-  siteTitle: 'Anmol Pratap Singh | Software Engineer',
+  siteTitle: 'Rahi Khan | Web Developer',
   siteDescription:
-    'Anmol Singh is a software engineer based in Banglore, India who specializes in building (and occasionally designing) exceptional websites, applications, and everything in between.',
+    'Rahi Khan is a web developer based in Dhaka, Bangladesh who specializes in building (and occasionally designing) exceptional websites, applications, and everything in between.',
   siteKeywords:
-    'Anmol Singh, Anmol, singh, anmol098, software engineer, back-end engineer, web developer, javascript, indian',
-  siteUrl: 'https://anmolsingh.me',
+    'Rahi Khan, Rahi, Khan, rahikhan, software engineer,  front-end engineer, web developer, javascript, bangladesh',
+  siteUrl: 'https://rahikhan.gtsb.io/',
   siteLanguage: 'en_US',
-  name: 'Anmol Pratap Singh',
-  location: 'Banglore, India',
-  email: 'hi@anmolsingh.me',
-  github: 'https://github.com/anmol098',
+  name: 'Rahi Khan',
+  location: 'Dhaka, Bangladesh',
+  email: 'rahikhan360@gmail.com',
+  github: 'https://github.com/rahi-khan',
   twitterHandle: '@misteranmol',
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/anmol098',
+      url: 'https://github.com/rahi-khan',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/anmol098',
+      url: 'https://www.linkedin.com/in/rahikhan',
     },
     {
       name: 'Npm',
-      url: 'npx anmol',
+      url: 'npx rahikhan',
     },
     {
       name: 'Instagram',
-      url: 'https://www.instagram.com/misteranmol',
+      url: 'https://www.instagram.com/_rahikhan_',
     },
     {
       name: 'Twitter',
-      url: 'https://twitter.com/misteranmol',
+      url: 'https://twitter.com/rahikhan_dev',
     },
   ],
   lastUpdated: '23-Nov-2020',

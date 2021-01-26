@@ -20,16 +20,7 @@
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby build & gatsby serve",
-    "clean": "gatsby clean",
-    "updateDate": "node .\\pre-push-script.js"
-  },
-  "pre-commit": [
-    "updateDate"
-  ],
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
+    "clean": "gatsby clean"
   },
   "lint-staged": {
     "*.{js,css,json,md}": [

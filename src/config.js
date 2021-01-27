@@ -21,10 +21,6 @@ module.exports = {
       url: 'https://www.linkedin.com/in/rahikhan',
     },
     {
-      name: 'Npm',
-      url: 'npx rahikhan',
-    },
-    {
       name: 'Instagram',
       url: 'https://www.instagram.com/_rahikhan_',
     },

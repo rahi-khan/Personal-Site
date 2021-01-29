@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 import { FormattedIcon } from '@components/icons';
 import { socialMedia, lastUpdated } from '@config';
@@ -61,23 +61,11 @@ const StyledGitHubInfo = styled.div`
   }
 `;
 
-const Footer = () => {
-  const [githubInfo, setGitHubInfo] = useState({
-    stars: null,
-    forks: null,
-  });
-
-  useEffect(() => {
-    if (process.env.NODE_ENV !== 'production') {
-
-    }
-  }, []);
-
-  return (
-    <StyledContainer>
-      <StyledSocial>
-        <StyledSocialList>
-          {socialMedia &&
+const Footer = () => (
+  <StyledContainer>
+    <StyledSocial>
+      <StyledSocialList>
+        {socialMedia &&
           socialMedia.map(({ name, url }, i) => (
             <li key={i}>
               <StyledSocialLink
@@ -85,36 +73,33 @@ const Footer = () => {
                 target="_blank"
                 rel="nofollow noopener noreferrer"
                 aria-label={name}>
-                <FormattedIcon name={name}/>
+                <FormattedIcon name={name} />
               </StyledSocialLink>
             </li>
           ))}
-        </StyledSocialList>
-      </StyledSocial>
-      <StyledMetadata tabindex="-1">
-        <StyledGitHubLink
-          href="https://github.com/bchiang7/v4"
-          target="_blank"
-          rel="nofollow noopener noreferrer">
-          <div>Designed &amp; Built by Brittany Chiang |</div>
-
-        </StyledGitHubLink>
-        <StyledGitHubLink
-          href="https://github.com/anmol098"
-          target="_blank"
-          rel="nofollow noopener noreferrer">
-          <div>| Customized By Anmol Pratap Singh</div>
-
-        </StyledGitHubLink>
-        <StyledGitHubInfo>
-          <span>
-            <span>Last Updated on: {lastUpdated}</span>
-          </span>
-        </StyledGitHubInfo>
-      </StyledMetadata>
-    </StyledContainer>
-  );
-};
+      </StyledSocialList>
+    </StyledSocial>
+    <StyledMetadata tabindex="-1">
+      <StyledGitHubLink
+        href="https://github.com/bchiang7/v4"
+        target="_blank"
+        rel="nofollow noopener noreferrer">
+        <div>Designed &amp; Built by Brittany Chiang |</div>
+      </StyledGitHubLink>
+      <StyledGitHubLink
+        href="https://github.com/rahi-khan"
+        target="_blank"
+        rel="nofollow noopener noreferrer">
+        <div>| Customized By Rahi Khan</div>
+      </StyledGitHubLink>
+      <StyledGitHubInfo>
+        <span>
+          <span>Last Updated on: {lastUpdated}</span>
+        </span>
+      </StyledGitHubInfo>
+    </StyledMetadata>
+  </StyledContainer>
+);
 
 Footer.propTypes = {
   githubInfo: PropTypes.object,

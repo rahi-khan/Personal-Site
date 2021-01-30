@@ -12,4 +12,4 @@ tech:
 showInProjects: true
 ---
 
-Global Avgerage Temperature Chart
+Web app to display a chart 📈 of the global average temperature 🥵 using NASA's official public API.

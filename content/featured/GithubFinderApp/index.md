@@ -12,5 +12,4 @@ tech:
 showInProjects: true
 ---
 
-A simple web app to display Github users profile 👾 <br />
-with detailed information about the user and their recently created projects
+A simple web app to display Github users profile 👾 with detailed information about the user and their recently created projects

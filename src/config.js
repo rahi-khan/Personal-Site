@@ -29,7 +29,7 @@ module.exports = {
       url: 'https://twitter.com/rahikhan_dev',
     },
   ],
-  lastUpdated: '29-Jan-2021',
+  lastUpdated: '04-Feb-2021',
 
   navLinks: [
     {

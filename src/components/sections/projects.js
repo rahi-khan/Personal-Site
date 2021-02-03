@@ -43,7 +43,7 @@ const StyledGrid = styled.div`
     ${media.desktop`grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));`};
   }
 `;
-const StyledProjectInner = styled.div`
+const StyledProjectInner = styled.a`
   ${mixins.boxShadow};
   ${mixins.flexBetween};
   flex-direction: column;
@@ -155,7 +155,7 @@ const Projects = ({ data }) => {
           {projectsToShow &&
             projectsToShow.map(({ node }, i) => {
               const { frontmatter, html } = node;
-              const { github, external, title, tech } = frontmatter;
+              const { github, title, tech, external } = frontmatter;
               return (
                 <CSSTransition
                   key={i}
@@ -169,7 +169,7 @@ const Projects = ({ data }) => {
                     style={{
                       transitionDelay: `${i >= GRID_LIMIT ? (i - GRID_LIMIT) * 100 : 0}ms`,
                     }}>
-                    <StyledProjectInner>
+                    <StyledProjectInner href={external} target="_blank">
                       <header>
                         <StyledProjectHeader>
                           <StyledFolder>
@@ -183,15 +183,6 @@ const Projects = ({ data }) => {
                                 rel="nofollow noopener noreferrer"
                                 aria-label="GitHub Link">
                                 <FormattedIcon name="GitHub" />
-                              </StyledIconLink>
-                            )}
-                            {external && (
-                              <StyledIconLink
-                                href={external}
-                                target="_blank"
-                                rel="nofollow noopener noreferrer"
-                                aria-label="External Link">
-                                <FormattedIcon name="External" />
                               </StyledIconLink>
                             )}
                           </StyledProjectLinks>

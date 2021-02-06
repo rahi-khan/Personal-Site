@@ -3,13 +3,11 @@
 </div>
 
 <h1 align="center">
-  anmolsingh.me
+  <strong>Rahi Khan</strong>
 </h1>
-<p align="center">
-  This is my personal website here i update lots of things which can not be summed up in my resume
-  visit <a href="https://anmolsingh.me" target="_blank">anmolsingh.me</a>
-</p>
-
+<h3 align="center">
+  <strong>This is my personal website.</strong>
+</h3>
 
 ![demo](https://user-images.githubusercontent.com/15426564/90930848-12dcd880-e419-11ea-8b58-ded1f587a3ec.png)
 
@@ -42,7 +40,7 @@ Yes, you can fork this repo. Please give proper credit by linking back to [britt
 3. Install dependencies
 
    ```sh
-   yarn
+   yarn or npm i
    ```
 
 4. Start the development server
@@ -63,26 +61,4 @@ Yes, you can fork this repo. Please give proper credit by linking back to [britt
 
    ```sh
    npm run serve
-   ```
-
-## 🎨 Color Reference
-
-| Color          | Hex                                                                |
-| -------------- | ------------------------------------------------------------------ |
-| Navy           | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) `#0a192f` |
-| Light Navy     | ![#172a45](https://via.placeholder.com/10/0a192f?text=+) `#172a45` |
-| Lightest Navy  | ![#303C55](https://via.placeholder.com/10/303C55?text=+) `#303C55` |
-| Slate          | ![#8892b0](https://via.placeholder.com/10/8892b0?text=+) `#8892b0` |
-| Light Slate    | ![#a8b2d1](https://via.placeholder.com/10/a8b2d1?text=+) `#a8b2d1` |
-| Lightest Slate | ![#ccd6f6](https://via.placeholder.com/10/ccd6f6?text=+) `#ccd6f6` |
-| White          | ![#e6f1ff](https://via.placeholder.com/10/e6f1ff?text=+) `#e6f1ff` |
-| Green          | ![#64ffda](https://via.placeholder.com/10/64ffda?text=+) `#64ffda` |
-
-
-   ```sh
-   vercel dev
-   ```
-
-   ```sh
-   vercel --prod
    ```
